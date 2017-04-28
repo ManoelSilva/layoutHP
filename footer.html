@@ -32,15 +32,26 @@
         </div>
         <div class="col-sm-6 ">
           <h4 class="widgettitle"><i class="fa fa-envelope fa-fw"></i>Entre em contato</h4>
-          <div class="row" id="contactRow">
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Seu nome" type="text" required>
-            </div>
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Seu Email" type="email" required>
+          <div class="col-sm form-group">
+            <div class="form-group">
+              <select name="assunto">
+              <option value="" selected>Selecione um assunto...</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="elogio">Elogio</option>
+                <option value="outro">Outro</option>
+              </select>
             </div>
           </div>
-          <textarea class="form-control" id="comentario" name="comentario" placeholder="Seu comentário" rows="5"></textarea><br>
+          <div class="row" id="contactRow">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Seu nome..." type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Seu Email..." type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="comentario" name="comentario" placeholder="Seu comentário..." rows="5"></textarea><br>
           <div class="row">
             <div class="col-sm-12 form-group">
               <button class="btn btn-primary btn-large">Enviar</button>
