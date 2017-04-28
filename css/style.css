@@ -1,0 +1,54 @@
+#banner{
+    background-color: #122931;
+}
+
+@media screen and (max-width: 800px) {
+    #banner{
+        display: none;
+    }
+}
+
+.dropdown-menu > li > p {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+
+.dropdown-menu > li >  p > span {
+    color: #337ab7;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+}
+.navbar-nav.navbar-center {
+ text-align: center;
+}
+
+.to-top {
+  position:relative;
+  bottom:-50px;
+  display:none;
+}
+
+.control.-up {
+  transform: rotate(90deg);
+  fill: #3688A0;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #41b9e6;
+  margin-right: 10px;
+  padding: 0 5px;
+  bottom: 20px;
+  right: 10px;
+  position: fixed;
+  opacity: 0.7;
+}
