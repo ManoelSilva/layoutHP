@@ -112,7 +112,6 @@ li > p > span > a{
 
 
 .thumbnail {
-
   margin-bottom:6px;
 }
 
@@ -122,5 +121,40 @@ li > p > span > a{
   width:5%;
 }
 
+.hide-bullets {
+  list-style:none;
+  margin-left: -40px;
+  margin-top:20px;
+}
 
+.thumbnail-gallery {
+  padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  width: 100%;
+}
+
+.span-galeria {
+  cursor: pointer;
+}
+
+a.a-instituicoes:link, a.a-instituicoes:hover, a.a-instituicoes:visited {
+  text-decoration: none;
+  color: #333;
+}
+
+@media screen and (max-width: 992px) {
+  #slider-thumbs{
+    display: none;
+  }
+}
+
+.sobre p {
+ font-size: 20px;
+ padding: 20px;
+ text-indent: 25px;
+ text-align: justify;
+ letter-spacing: 1px;
+}
 
