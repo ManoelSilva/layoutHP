@@ -253,21 +253,27 @@ a.a-instituicoes:link, a.a-instituicoes:hover, a.a-instituicoes:visited {
     background: #CECECE;
 }
 
-.card mb-3 {
-
-  margin-left: 10px;
-
-}
 
 .card-img-top {
   float: left;
   margin-right: 10px;
 }
 
-.jumbotron-fluid{
+.jumbotron{
 
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.depoindex{
+
+    font-size: 24px;
+
+}
+
+.depo {
+
+    font-size: 20px;
+    text-align: justify;
+
 }
