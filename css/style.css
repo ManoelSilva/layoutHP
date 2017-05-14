@@ -252,3 +252,22 @@ a.a-instituicoes:link, a.a-instituicoes:hover, a.a-instituicoes:visited {
     height: 1px;
     background: #CECECE;
 }
+
+.card mb-3 {
+
+  margin-left: 10px;
+
+}
+
+.card-img-top {
+  float: left;
+  margin-right: 10px;
+}
+
+.jumbotron-fluid{
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
