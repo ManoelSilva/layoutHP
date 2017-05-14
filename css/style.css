@@ -1,160 +1,160 @@
-html{
-  font-family: "Helvetica Neue";
-  text-align: left;
+html {
+    font-family: "Helvetica Neue";
+    text-align: left;
 }
 
-#banner{
-  background-color: #122931;
+#banner {
+    background-color: #122931;
 }
 
 @media screen and (max-width: 800px) {
-  #banner{
-    display: none;
-  }
+    #banner {
+        display: none;
+    }
 }
 
 .carousel img {
-  opacity: 0.9;
+    opacity: 0.9;
 }
 
 .dropdown-menu > li > p {
-  display: block;
-  padding: 3px 20px;
-  clear: both;
-  font-weight: 400;
-  line-height: 1.42857143;
-  color: #333;
-  white-space: nowrap;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
 }
 
-li > p > span > a{
-  color: #7F7777;
+li > p > span > a {
+    color: #7F7777;
 }
 
-.dropdown-menu > li >  p > span {
-  color: #337ab7;
+.dropdown-menu > li > p > span {
+    color: #337ab7;
 }
 
 @media (min-width: 768px) {
-  .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-  }
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
 }
+
 .navbar-nav.navbar-center {
- text-align: center;
+    text-align: center;
 }
 
 .to-top {
-  position:relative;
-  bottom:-50px;
-  display:none;
+    position: relative;
+    bottom: -50px;
+    display: none;
 }
 
 .control.-up {
-  transform: rotate(90deg);
-  fill: #3688A0;
-  width: 40px;
-  height: 40px;
-  border: 2px solid #41b9e6;
-  margin-right: 10px;
-  padding: 0 5px;
-  bottom: 20px;
-  right: 10px;
-  position: fixed;
-  opacity: 0.7;
+    transform: rotate(90deg);
+    fill: #3688A0;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #41b9e6;
+    margin-right: 10px;
+    padding: 0 5px;
+    bottom: 20px;
+    right: 10px;
+    position: fixed;
+    opacity: 0.7;
 }
 
 #footer {
-  border-top: 5px solid #CDB380;
-  background: #033649 none repeat scroll 0% 0%;
-  padding-top: 30px;
-  margin-top: 60px;
-  clear: both;
-  color: #AAA;
-  display: block;
+    border-top: 5px solid #CDB380;
+    background: #033649 none repeat scroll 0% 0%;
+    padding-top: 30px;
+    margin-top: 60px;
+    clear: both;
+    color: #AAA;
+    display: block;
 }
 
-#contactRow{
-  padding-top: 10px;
+#contactRow {
+    padding-top: 10px;
 }
 
 #footer .widgettitle {
-  margin: 0px;
-  padding: 0px 0px 15px;
-  border-bottom: medium none;
+    margin: 0px;
+    padding: 0px 0px 15px;
+    border-bottom: medium none;
 }
 
 #footer h4 {
-  color: #FFF;
+    color: #FFF;
 }
 
 #footer ul {
-  list-style: outside none none;
+    list-style: outside none none;
 }
 
 #footer li {
-  padding: 7px 0px;
-  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
-  margin: 0px;
+    padding: 7px 0px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+    margin: 0px;
 }
 
 #footer li a {
-  color: #DDD;
+    color: #DDD;
 }
 
 #sub-floor {
-  color: #AAA;
-  background: #031634 none repeat scroll 0% 0%;
-  padding: 10px 0px;
+    color: #AAA;
+    background: #031634 none repeat scroll 0% 0%;
+    padding: 10px 0px;
 }
-
 
 .thumbnail {
-  margin-bottom:6px;
+    margin-bottom: 6px;
 }
 
-.carousel-control.left,.carousel-control.right{
-  background-image:none;
-  margin-top:10%;
-  width:5%;
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    margin-top: 10%;
+    width: 5%;
 }
 
 .hide-bullets {
-  list-style:none;
-  margin-left: -40px;
-  margin-top:20px;
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 20px;
 }
 
 .thumbnail-gallery {
-  padding: 0;
+    padding: 0;
 }
 
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-  width: 100%;
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
 }
 
 .span-galeria {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 a.a-instituicoes:link, a.a-instituicoes:hover, a.a-instituicoes:visited {
-  text-decoration: none;
-  color: #333;
+    text-decoration: none;
+    color: #333;
 }
 
 @media screen and (max-width: 992px) {
-  #slider-thumbs{
-    display: none;
-  }
+    #slider-thumbs {
+        display: none;
+    }
 }
 
 .sobre p {
- font-size: 20px;
- padding: 20px;
- text-indent: 25px;
- text-align: justify;
- letter-spacing: 1px;
+    font-size: 20px;
+    padding: 20px;
+    text-indent: 25px;
+    text-align: justify;
+    letter-spacing: 1px;
 }
 
