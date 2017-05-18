@@ -17,6 +17,12 @@ html {
     opacity: 0.9;
 }
 
+@media screen and (max-width: 540px) {
+    .hp-font {
+        display: none;
+    }
+}
+
 .dropdown-menu > li > p {
     display: block;
     padding: 3px 20px;
@@ -161,6 +167,7 @@ a.a-instituicoes:link, a.a-instituicoes:hover, a.a-instituicoes:visited {
 .profile-card {
     background-color: #122931;
     margin-bottom: 20px;
+    height: 600px;
 
 }
 
@@ -253,27 +260,79 @@ a.a-instituicoes:link, a.a-instituicoes:hover, a.a-instituicoes:visited {
     background: #CECECE;
 }
 
-
 .card-img-top {
-  float: left;
-  margin-right: 10px;
+    float: left;
+    margin-right: 10px;
 }
 
-.jumbotron{
-
-  padding-top: 20px;
-  padding-bottom: 20px;
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.depoindex{
-
+.depoindex {
     font-size: 24px;
-
 }
 
 .depo {
-
     font-size: 20px;
     text-align: justify;
+}
 
+.testimonials {
+    margin-top: 40px;
+}
+
+.testimonial {
+    margin-bottom: 3em;
+    background: #EEEEEE;
+    padding: 2em;
+    border-right: 30px solid #F9F9F9;
+    height: 400px;
+}
+
+.testimonial:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -ms-transform: skew(-3deg, -2deg);
+    -webkit-transform: skew(-3deg, -2deg);
+    -o-transform: skew(-3deg, -2deg);
+    -moz-transform: skew(-3deg, -2deg);
+    bottom: 14px;
+    box-shadow: 0 16px 5px rgba(0, 0, 0, .04);
+    max-width: 90%;
+    width: 90%;
+    height: 50px;
+    left: 1px;
+}
+
+.total-right{
+    float: right;
+}
+
+.avatar .img-circle {
+    background: #fff;
+    padding: 3px;
+    border: 1px solid #c5c5c5;
+}
+
+.avatar img {
+    max-width: 100%;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.testimonial h4, .testimonial h4 a {
+    font-weight: 700;
+}
+
+.testimonial h4 {
+    margin-bottom: 8px;
+}
+
+.testimonial .testimony-body {
+    font-size: .9em;
 }
